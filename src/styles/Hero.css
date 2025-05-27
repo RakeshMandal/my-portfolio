@@ -1,0 +1,23 @@
+.hero-section {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
