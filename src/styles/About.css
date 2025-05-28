@@ -11,7 +11,8 @@
 .about-left {
   flex: 1;
   min-width: 250px;
-  text-align: center;
+  text-align: left;
+  margin-left: 8rem;
   margin-bottom: 20px;
 }
 
@@ -25,8 +26,8 @@
 
 .about-right {
   flex: 2;
-  padding: 0 20px;
   max-width: 600px;
+  padding: 0 7% 0 0;
 }
 
 .about-title {
@@ -84,4 +85,9 @@
 @keyframes fadeInUp {
   from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
+}
+@media (max-width: 768px) {
+  .about-left {
+   margin-left: 20%;
+  }
 }
