@@ -19,12 +19,12 @@ const projects = [
     tech: "React.js, Bootstrap",
     link: "https://www.paytmmoney.com/equities/ipo/upcoming_ipo.html",
   },
-  {
-    title: "Movie Application",
-    description: "A movie browsing app displaying trending and latest movies using external movie API integrations.",
-    tech: "React.js, CSS3, TMDB API",
-    link: "https://rakeshmandal.github.io/movie-application/",
-  },
+  // {
+  //   title: "Movie Application",
+  //   description: "A movie browsing app displaying trending and latest movies using external movie API integrations.",
+  //   tech: "React.js, CSS3, TMDB API",
+  //   link: "https://rakeshmandal.github.io/movie-application/",
+  // },
   {
     title: "Walmart Pet Pharmacy",
     description: "Worked on Walmart's PetRx platform to deliver a seamless pharmacy experience for pet supplies.",
