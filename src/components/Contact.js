@@ -14,7 +14,7 @@ const Contact = () => {
             >
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_next" value="https://rakeshportfolio.com/thank-you" />
+               <input type="hidden" name="_next" value="https://rakesh-m-portfolio.netlify.app/thank-you" />
 
                 <input type="text" name="name" placeholder="Your Name" required autoComplete="username" />
                 <input type="email" name="email" placeholder="Your Email" required autoComplete="email" />
