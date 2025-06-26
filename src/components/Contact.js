@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Contact.css';
-
 const Contact = () => {
     return (
         <section className="contact" id="contact">
@@ -10,13 +9,16 @@ const Contact = () => {
             </p>
             <form
                 className="contact-form"
-                action="mailto:rakeshmandal0502@gmail.com"
+                action="https://formsubmit.co/f/4ed7585323e9ee96c1f4a94bf65425bc"
                 method="POST"
-                encType="text/plain"
             >
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" placeholder="Your Message" rows="5" required />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_next" value="https://rakeshportfolio.com/thank-you" />
+
+                <input type="text" name="name" placeholder="Your Name" required autoComplete="username" />
+                <input type="email" name="email" placeholder="Your Email" required autoComplete="email" />
+                <textarea name="message" placeholder="Your Message" rows="5" required autoComplete="off" />
                 <button type="submit">Send Message</button>
             </form>
 
